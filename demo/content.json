@@ -1,0 +1,825 @@
+{
+ "site": {
+  "name": "The Artvibes",
+  "tagline": "Mạng xã hội định hình phong cách sống thế hệ mới"
+ },
+ "categories": [
+  [
+   "Xu hướng",
+   "xu-huong",
+   [
+    [
+     "Thiết kế nổi bật",
+     "thiet-ke-noi-bat"
+    ],
+    [
+     "Không gian sáng tạo",
+     "khong-gian-sang-tao"
+    ],
+    [
+     "Người truyền cảm hứng",
+     "nguoi-truyen-cam-hung"
+    ],
+    [
+     "Cảm hứng",
+     "cam-hung"
+    ],
+    [
+     "Giải thưởng",
+     "giai-thuong"
+    ]
+   ]
+  ],
+  [
+   "Thiết kế",
+   "thiet-ke",
+   [
+    [
+     "Kiến trúc",
+     "kien-truc",
+     [
+      [
+       "Thiết kế bền vững",
+       "thiet-ke-ben-vung"
+      ],
+      [
+       "Giải pháp đô thị",
+       "giai-phap-do-thi"
+      ],
+      [
+       "Kiến trúc Việt Nam",
+       "kien-truc-viet-nam"
+      ],
+      [
+       "Kiến trúc sư",
+       "kien-truc-su"
+      ]
+     ]
+    ],
+    [
+     "Nội thất",
+     "noi-that",
+     [
+      [
+       "Không gian sống",
+       "khong-gian-song"
+      ],
+      [
+       "Không gian thương mại",
+       "khong-gian-thuong-mai"
+      ],
+      [
+       "Thiết kế sản phẩm",
+       "thiet-ke-san-pham"
+      ],
+      [
+       "Nhà thiết kế",
+       "nha-thiet-ke"
+      ]
+     ]
+    ],
+    [
+     "Sản phẩm",
+     "san-pham"
+    ],
+    [
+     "Thời trang",
+     "thoi-trang"
+    ]
+   ]
+  ],
+  [
+   "Life Style",
+   "life-style",
+   [
+    [
+     "Hội họa",
+     "hoi-hoa",
+     [
+      [
+       "Tác phẩm",
+       "tac-pham"
+      ],
+      [
+       "Triển lãm",
+       "trien-lam"
+      ],
+      [
+       "Hội họa Việt Nam",
+       "hoi-hoa-viet-nam"
+      ],
+      [
+       "Chân dung họa sĩ",
+       "chan-dung-hoa-si"
+      ]
+     ]
+    ],
+    [
+     "Văn hóa",
+     "van-hoa",
+     [
+      [
+       "Di sản",
+       "di-san"
+      ],
+      [
+       "Đương đại",
+       "duong-dai"
+      ],
+      [
+       "Văn hóa Việt Nam",
+       "van-hoa-viet-nam"
+      ]
+     ]
+    ],
+    [
+     "Đời sống",
+     "doi-song",
+     [
+      [
+       "Du lịch",
+       "du-lich"
+      ],
+      [
+       "Ẩm thực",
+       "am-thuc"
+      ],
+      [
+       "Sự kiện",
+       "su-kien"
+      ],
+      [
+       "Phong cách sống",
+       "phong-cach-song"
+      ]
+     ]
+    ],
+    [
+     "Âm nhạc",
+     "am-nhac"
+    ],
+    [
+     "Điện ảnh",
+     "dien-anh"
+    ]
+   ]
+  ]
+ ],
+ "video_types": [
+  "Video",
+  "Podcast",
+  "Short Video"
+ ],
+ "posts": [
+  {
+   "title": "New collection Launch",
+   "sub": "Trovato",
+   "cats": [
+    "thiet-ke-noi-bat"
+   ],
+   "image": "stairs.jpg",
+   "excerpt": "With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "content": "<p>With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Maison Drolet",
+   "sub": "La Shed Architecture",
+   "cats": [
+    "khong-gian-sang-tao"
+   ],
+   "image": "gate-house.jpg",
+   "excerpt": "With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.",
+   "tags": [
+    "Nội thất",
+    "Không gian sống"
+   ],
+   "content": "<p>With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Seascape",
+   "sub": "Patterson Associates",
+   "cats": [
+    "nguoi-truyen-cam-hung"
+   ],
+   "image": "olive-house.jpg",
+   "excerpt": "With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.",
+   "tags": [
+    "Văn hóa",
+    "Di sản"
+   ],
+   "content": "<p>With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "The END Flaship",
+   "sub": "LYMT Studio",
+   "cats": [
+    "giai-thuong"
+   ],
+   "image": "end-store.jpg",
+   "excerpt": "With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "content": "<p>With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Unashamedly Playful – St Kilda",
+   "sub": "Project Feature",
+   "cats": [
+    "cam-hung"
+   ],
+   "image": "kitchen-lamps.jpg",
+   "excerpt": "With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "content": "<p>With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Honest and Raw – St Andrews Beach",
+   "sub": "Project Feature",
+   "cats": [
+    "thiet-ke-noi-bat"
+   ],
+   "image": "lantern-room.jpg",
+   "excerpt": "With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "content": "<p>With a subtle European influence and architectural sensibility, new Australian brand Trovato introduces a range of refined furniture and homewares.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Góc riêng cho thú cưng:",
+   "sub": "Một phần tiện ích của tổ ấm",
+   "cats": [
+    "cam-hung"
+   ],
+   "image": "fireplace.jpg",
+   "excerpt": "Pop Architecture rejuvenates a modest mid-century gem through a subdued, tactile design that encourages touch and exploration. A simple palette of materials creates a home that feels soothing and experiential.",
+   "tags": [
+    "Xu hướng",
+    "Thiết kế nội thất"
+   ],
+   "content": "<p>Located at the end of a quiet cul-de-sac in Melbourne’s leafy south-east, the dwelling has remained largely unchanged for the past 60 years. Determined to preserve the essence of this cherished home, the architects approached with care. “The project arose from the need to update essential spaces… without diminishing its architectural clarity,” recalls Katherine Sainsbery, director of Pop Architecture. Improved functionality, updated amenities and a more adaptable layout formed the foundation of the sensitive restoration. In many ways, the project harnesses its constraints to uncover and enhance existing moments of human delight.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p><figure class=\"av-pair\"><img src=\"{img:fireplace-2.jpg}\" alt=\"\"><img src=\"{img:bathroom.jpg}\" alt=\"\"></figure><p>Laundry, kitchen, dining and lounge – the logic of the original dwelling is celebrated for its bold functionalism. Bedrooms flank a central stepped courtyard for ease of connection from one zone to the next. Glazed timber doors allow gentle breezes to move through every room, while deep eaves offer shelter from sun and rain. A monastic sensibility runs throughout, anchored by the ritual of bathing as a recurring motif. A new powder room was neatly inserted below the original roofline, while the bathrooms were enlarged and access rationalised. Unglazed Japanese mosaic tiles adorn the walls and floors, punctuated by striking Fior Di Bosco marble vanities and raw metallic fixtures.</p><p>The original chimney breast serves as a spatial divider at the heart of the communal realm. Rustic bagged brick retains the trowel marks of its maker, rising from a humble clay plinth before re-emerging as an arched form above the roofline. The minimal landscape anchors the home in structured greenery, creating a series of small vignettes through and beyond the architecture. “The pergola to the north terrace was reinstated to create a more layered outdoor dining and entertaining space,” Sainsbery says, describing how the program extends beyond the enclosure.</p>",
+   "intro": "Enveloped in earthy tones and textures that bring a sense of warmth and calm to each space, Toorak House is a work of mid-century architecture renewed with respect for its original character. The low-slung abode is a gentle expression of modernist design, with generous outdoor rooms and self-contained pockets that support the rhythms of day-to-day living.",
+   "words": "André Bankier-Perry",
+   "photo": "Jess Kneebone",
+   "credits": "Architecture by | Pop Architecture\nFurniture by | Stylecraft\nBuild by | Ausvest\nLighting by | Akari\nInterior Design by | Pop Architecture\nLighting by | Coco Flip\nStructural and Civil Engineering by | R.I. Brown\nLighting by | In Good Company\nAppliances by | Fisher & Paykel\nPaint by | Dulux\nFurniture by | Coco Flip\nStone by | Signorino\nFurniture by | District\nTapware by | Astra Walker\nFurniture by | Fomu Studio\nTiles by | Academy Tiles\nFurniture by | pépite\nAppliances by | ILVE"
+  },
+  {
+   "title": "Shifting Spaces Collection",
+   "sub": "Coco Republic",
+   "cats": [
+    "thiet-ke-ben-vung"
+   ],
+   "image": "coco-republic.jpg",
+   "excerpt": "Luxury furniture design leader Coco Republic presents its Shifting Spaces collection, a celebration of natural materials and timeless craftsmanship.",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "hero": "1",
+   "content": "<p>Luxury furniture design leader Coco Republic presents its Shifting Spaces collection, a celebration of natural materials and timeless craftsmanship.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Tamarack Ranch",
+   "sub": "Alexander Design Group",
+   "cats": [
+    "kien-truc-su"
+   ],
+   "image": "tamarack.jpg",
+   "excerpt": "In Minnesota, Alexander Design Group has crafted a home that is deeply connected to the land, a connection fostered by expansive glazing from Marvin.",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "content": "<p>In Minnesota, Alexander Design Group has crafted a home that is deeply connected to the land, a connection fostered by expansive glazing from Marvin.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Luxury Fashion-Led Textiles",
+   "sub": "INKNIT",
+   "cats": [
+    "giai-phap-do-thi"
+   ],
+   "image": "inknit.jpg",
+   "excerpt": "INKNIT draws on British heritage and contemporary Australian living to create fashion-led luxury textiles marked by timeless craftsmanship.",
+   "tags": [
+    "Design",
+    "Furniture"
+   ],
+   "content": "<p>INKNIT draws on British heritage and contemporary Australian living to create fashion-led luxury textiles marked by timeless craftsmanship.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Glass House Summer Party",
+   "sub": "Knoll",
+   "cats": [
+    "kien-truc-viet-nam"
+   ],
+   "image": "glass-house.jpg",
+   "excerpt": "Knoll’s one-day installation at the Glass House in Connecticut brought together modernist classics and new pieces by artist and designer Dozie Kanu.",
+   "tags": [
+    "Design",
+    "Furniture"
+   ],
+   "hero": "1",
+   "content": "<p>Knoll’s one-day installation at the Glass House in Connecticut brought together modernist classics and new pieces by artist and designer Dozie Kanu.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Toorak House",
+   "sub": "Pop Architecture",
+   "cats": [
+    "khong-gian-song"
+   ],
+   "image": "fireplace-2.jpg",
+   "excerpt": "Pop Architecture rejuvenates a modest mid-century gem through a subdued, tactile design that encourages touch and exploration. A simple palette of materials creates a home that feels soothing and experiential.",
+   "tags": [
+    "Design",
+    "Furniture"
+   ],
+   "content": "<p>Pop Architecture rejuvenates a modest mid-century gem through a subdued, tactile design that encourages touch and exploration. A simple palette of materials creates a home that feels soothing and experiential.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Two Sublime New Oven Series",
+   "sub": "Gaggenau",
+   "cats": [
+    "thiet-ke-san-pham"
+   ],
+   "image": "marble-kitchen.jpg",
+   "excerpt": "Gaggenau unveils two oven series that marry professional-grade performance with a quietly sculptural presence in the kitchen.",
+   "tags": [
+    "Design",
+    "Appliances & Technology"
+   ],
+   "content": "<p>Gaggenau unveils two oven series that marry professional-grade performance with a quietly sculptural presence in the kitchen.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "A Respectful Balance – Waimataruru",
+   "sub": "Video Feature",
+   "cats": [
+    "khong-gian-thuong-mai"
+   ],
+   "image": "red-sofa.jpg",
+   "excerpt": "A sculptural red banquette winds through a light-filled atrium, turning circulation into a place to pause and gather.",
+   "tags": [
+    "House Tours"
+   ],
+   "content": "<p>A sculptural red banquette winds through a light-filled atrium, turning circulation into a place to pause and gather.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Forming Deep Connections – Palms",
+   "sub": "Video Feature",
+   "cats": [
+    "nha-thiet-ke"
+   ],
+   "image": "glass-tree.jpg",
+   "excerpt": "An internal courtyard planted with an olive tree anchors this home, drawing light and greenery deep into the plan.",
+   "tags": [
+    "House Tours"
+   ],
+   "content": "<p>An internal courtyard planted with an olive tree anchors this home, drawing light and greenery deep into the plan.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Sắc độ của tĩnh lặng",
+   "sub": "Triển lãm mùa thu",
+   "cats": [
+    "trien-lam"
+   ],
+   "image": "white-room.jpg",
+   "excerpt": "Triển lãm quy tụ những tác phẩm khai thác ánh sáng và khoảng trống, mời người xem chậm lại giữa nhịp sống đô thị.",
+   "tags": [
+    "Hội họa",
+    "Triển lãm"
+   ],
+   "content": "<p>Triển lãm quy tụ những tác phẩm khai thác ánh sáng và khoảng trống, mời người xem chậm lại giữa nhịp sống đô thị.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "A Process of Discovery – Waiheke",
+   "sub": "Book Feature",
+   "cats": [
+    "tac-pham"
+   ],
+   "image": "corridor.jpg",
+   "excerpt": "Một hành trình khám phá vật liệu và ánh sáng trên hòn đảo Waiheke, nơi kiến trúc mở ra trước biển trời.",
+   "tags": [
+    "Hội họa",
+    "Tác phẩm"
+   ],
+   "content": "<p>Một hành trình khám phá vật liệu và ánh sáng trên hòn đảo Waiheke, nơi kiến trúc mở ra trước biển trời.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Bức tường kể chuyện",
+   "sub": "Hội họa Việt Nam",
+   "cats": [
+    "hoi-hoa-viet-nam"
+   ],
+   "image": "inknit.jpg",
+   "excerpt": "Những mảng màu đen trắng táo bạo biến bức tường phòng khách thành tâm điểm, kể câu chuyện riêng của gia chủ.",
+   "tags": [
+    "Hội họa",
+    "Việt Nam"
+   ],
+   "content": "<p>Những mảng màu đen trắng táo bạo biến bức tường phòng khách thành tâm điểm, kể câu chuyện riêng của gia chủ.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Chân dung trong ánh sáng",
+   "sub": "Chân dung họa sĩ",
+   "cats": [
+    "chan-dung-hoa-si"
+   ],
+   "image": "lantern-room.jpg",
+   "excerpt": "Gặp gỡ người họa sĩ dành nhiều năm vẽ ánh sáng ban mai trong những căn phòng tĩnh lặng.",
+   "tags": [
+    "Hội họa",
+    "Chân dung"
+   ],
+   "content": "<p>Gặp gỡ người họa sĩ dành nhiều năm vẽ ánh sáng ban mai trong những căn phòng tĩnh lặng.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Di sản trong từng viên gạch",
+   "sub": "Brick House",
+   "cats": [
+    "di-san"
+   ],
+   "image": "brick-house.jpg",
+   "excerpt": "Ngôi nhà gạch giữa rừng bạch đàn giữ lại dấu tay người thợ trên từng mảng tường, như một lời tri ân với nghề thủ công.",
+   "tags": [
+    "Văn hóa",
+    "Di sản"
+   ],
+   "content": "<p>Ngôi nhà gạch giữa rừng bạch đàn giữ lại dấu tay người thợ trên từng mảng tường, như một lời tri ân với nghề thủ công.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Kiến trúc của ký ức",
+   "sub": "Đương đại",
+   "cats": [
+    "duong-dai"
+   ],
+   "image": "olive-house.jpg",
+   "excerpt": "Cây ô liu già được giữ lại làm trung tâm, để ngôi nhà mới lớn lên quanh ký ức của khu vườn cũ.",
+   "tags": [
+    "Văn hóa",
+    "Đương đại"
+   ],
+   "content": "<p>Cây ô liu già được giữ lại làm trung tâm, để ngôi nhà mới lớn lên quanh ký ức của khu vườn cũ.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Nhà vườn giữa rừng thông",
+   "sub": "Landscape",
+   "cats": [
+    "van-hoa-viet-nam"
+   ],
+   "image": "landscape.jpg",
+   "excerpt": "Những khối nhà thấp nằm lẫn vào thảm thực vật ven biển, để thiên nhiên dẫn dắt nhịp sống mỗi ngày.",
+   "tags": [
+    "Văn hóa",
+    "Việt Nam"
+   ],
+   "content": "<p>Những khối nhà thấp nằm lẫn vào thảm thực vật ven biển, để thiên nhiên dẫn dắt nhịp sống mỗi ngày.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Cổng nhà, lời chào đầu tiên",
+   "sub": "Văn hóa Việt Nam",
+   "cats": [
+    "van-hoa-viet-nam"
+   ],
+   "image": "gate-house.jpg",
+   "excerpt": "Từ cánh cổng gỗ đến bức tường cây xanh, lối vào là nơi ngôi nhà cất tiếng chào đầu tiên.",
+   "tags": [
+    "Văn hóa",
+    "Việt Nam"
+   ],
+   "content": "<p>Từ cánh cổng gỗ đến bức tường cây xanh, lối vào là nơi ngôi nhà cất tiếng chào đầu tiên.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Bữa tiệc mùa hè",
+   "sub": "Ẩm thực",
+   "cats": [
+    "am-thuc"
+   ],
+   "image": "food.jpg",
+   "excerpt": "Một bàn tiệc ngoài trời với rau củ theo mùa, nơi món ăn trở thành chất keo gắn kết bạn bè và gia đình.",
+   "tags": [
+    "Đời sống",
+    "Ẩm thực"
+   ],
+   "content": "<p>Một bàn tiệc ngoài trời với rau củ theo mùa, nơi món ăn trở thành chất keo gắn kết bạn bè và gia đình.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Cam, nắng và buổi sáng chậm",
+   "sub": "Phong cách sống",
+   "cats": [
+    "phong-cach-song"
+   ],
+   "image": "oranges.jpg",
+   "excerpt": "Những nghi thức nhỏ buổi sáng – ly nước cam, chút nắng, vài trang sách – giúp ta sống chậm hơn.",
+   "tags": [
+    "Đời sống",
+    "Phong cách sống"
+   ],
+   "content": "<p>Những nghi thức nhỏ buổi sáng – ly nước cam, chút nắng, vài trang sách – giúp ta sống chậm hơn.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Phòng tắm như một nghi thức",
+   "sub": "Phong cách sống",
+   "cats": [
+    "phong-cach-song"
+   ],
+   "image": "bathroom.jpg",
+   "excerpt": "Gạch thủ công, đá tự nhiên và ánh sáng dịu biến phòng tắm thành chốn thư giãn cuối ngày.",
+   "tags": [
+    "Đời sống",
+    "Phong cách sống"
+   ],
+   "content": "<p>Gạch thủ công, đá tự nhiên và ánh sáng dịu biến phòng tắm thành chốn thư giãn cuối ngày.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  },
+  {
+   "title": "Cuối tuần ở Waiheke",
+   "sub": "Du lịch",
+   "cats": [
+    "du-lich"
+   ],
+   "image": "corridor.jpg",
+   "excerpt": "Hành trình cuối tuần tới hòn đảo rượu vang, nghỉ trong căn nhà gỗ nhìn ra biển.",
+   "tags": [
+    "Đời sống",
+    "Du lịch"
+   ],
+   "content": "<p>Hành trình cuối tuần tới hòn đảo rượu vang, nghỉ trong căn nhà gỗ nhìn ra biển.</p><p>Comprising a series of interlinked pavilions, the residence extends from a central circulation spine that allows for interstitial encounters when navigating the length of the plan. From the compact entry corridor, an all-encompassing sense of tactility draws the eye across original brick floors and rhythmic timber panelling before coming to rest on a framed outdoor view. “The project isolates what makes the house exceptional – its light, spatial rhythm and material warmth – all strengthened through subtle, strategic adjustments,” Sainsbery says.</p>"
+  }
+ ],
+ "videos": [
+  {
+   "title": "Lockyer House",
+   "sub": "Shaun Lockyer Architects",
+   "image": "landscape.jpg",
+   "type": "Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình.",
+   "hero": "1"
+  },
+  {
+   "title": "The END Flaship",
+   "sub": "LYMT Studio",
+   "image": "video-kitchen.jpg",
+   "type": "Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình."
+  },
+  {
+   "title": "Coastal Retreat",
+   "sub": "LYMT Studio",
+   "image": "video-landscape.jpg",
+   "type": "Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình."
+  },
+  {
+   "title": "Black Box House",
+   "sub": "LYMT Studio",
+   "image": "video-black-house.jpg",
+   "type": "Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình."
+  },
+  {
+   "title": "Thiết kế bền vững cùng kiến trúc sư",
+   "sub": "Podcast #01",
+   "image": "coco-republic.jpg",
+   "type": "Podcast",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình."
+  },
+  {
+   "title": "Sống chậm giữa đô thị",
+   "sub": "Podcast #02",
+   "image": "corridor.jpg",
+   "type": "Podcast",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình."
+  },
+  {
+   "title": "Ngôi nhà giữa đồi cát",
+   "sub": "Short",
+   "image": "short-1.jpg",
+   "type": "Short Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình.",
+   "views": "5014"
+  },
+  {
+   "title": "Bức tường cong",
+   "sub": "Short",
+   "image": "short-2.jpg",
+   "type": "Short Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình.",
+   "views": "3525"
+  },
+  {
+   "title": "Hồ bơi tầng thượng",
+   "sub": "Short",
+   "image": "short-3.jpg",
+   "type": "Short Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình.",
+   "views": "3028"
+  },
+  {
+   "title": "Bàn ăn trong vườn",
+   "sub": "Short",
+   "image": "short-4.jpg",
+   "type": "Short Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình.",
+   "views": "2552"
+  },
+  {
+   "title": "Bếp trắng tối giản",
+   "sub": "Short",
+   "image": "short-5.jpg",
+   "type": "Short Video",
+   "tags": [
+    "Kiến trúc",
+    "Giải pháp đô thị"
+   ],
+   "excerpt": "Thước phim ngắn đưa bạn bước vào không gian, vật liệu và ánh sáng của công trình.",
+   "views": "2830"
+  }
+ ],
+ "portraits": [
+  {
+   "title": "Omer Arbel",
+   "sub": "Nhà thiết kế",
+   "image": "omer-arbel.jpg",
+   "excerpt": "Though the co-founder of Bocci is best known for his exploration of light as a medium, his creative output is far more extensive.",
+   "content": "<p>Though the co-founder of Bocci is best known for his exploration of light as a medium, his creative output is far more extensive.</p>",
+   "info": "Quốc tịch | Canada\nNghề nghiệp | Nhà thiết kế, nghệ sĩ\nThương hiệu | Bocci"
+  },
+  {
+   "title": "David Rockwell",
+   "sub": "Kiến trúc sư",
+   "image": "david-rockwell.jpg",
+   "excerpt": "Architect David Rockwell has spent more than 40 years designing resonant spaces in which to drink, dine, stay and play.",
+   "content": "<p>Architect David Rockwell has spent more than 40 years designing resonant spaces in which to drink, dine, stay and play.</p>",
+   "info": "Quốc tịch | Hoa Kỳ\nNghề nghiệp | Kiến trúc sư\nStudio | Rockwell Group"
+  },
+  {
+   "title": "Sơn Tùng M-TP",
+   "sub": "Ca sĩ, nhạc sĩ",
+   "image": "portrait-3.jpg",
+   "gallery": [
+    "portrait-1.jpg",
+    "portrait-2.jpg"
+   ],
+   "excerpt": "Ca sĩ kiêm nhạc sĩ, nhà sản xuất thu âm và diễn viên – được mệnh danh “Hoàng tử V-pop”.",
+   "content": "<p>Nguyễn Thanh Tùng (sinh ngày 5 tháng 7 năm 1994), thường được biết đến với nghệ danh Sơn Tùng M-TP, là một nam ca sĩ kiêm nhạc sĩ sáng tác bài hát, nhà sản xuất thu âm và diễn viên người Việt Nam. Nổi tiếng vì tầm ảnh hưởng sâu rộng đối với âm nhạc Việt Nam, anh được mệnh danh là \"Hoàng tử V-pop\" bởi Giải thưởng Âm nhạc Thế giới, Forbes và BroadwayWorld. Anh cũng được giới chuyên môn đánh giá là một trong những nghệ sĩ âm nhạc Việt Nam xuất sắc nhất trong thế hệ của mình.</p><p>Sinh ra ở thành phố Thái Bình, Sơn Tùng thường đi hát ở Cung văn hoá thiếu nhi tỉnh Thái Bình và học chơi đàn organ từ nhỏ. Sau đó, Tùng cùng với các bạn trong lớp thành lập nên một nhóm nhạc, lấy tên là Over Band, bắt đầu sáng tác và đăng tải các bài hát của mình lên một trang web chuyên về lĩnh vực âm nhạc có tên là LadyKillah. Năm 2011, Tùng bắt đầu nổi tiếng khi phát hành hai đĩa đơn \"Cơn mưa ngang qua\" và \"Em của ngày hôm qua\", đánh dấu mốc khởi đầu cho sự nghiệp của mình. Tùng bắt đầu sự nghiệp diễn xuất bằng việc đóng vai chính trong bộ phim chiếu rạp năm 2014 Chàng trai năm ấy. Album nhạc phim cùng tên được phát hành vào năm 2014, bao gồm hai đĩa đơn thành công là \"Chắc ai đó sẽ về\" và \"Không phải dạng vừa đâu\". Năm 2015, Tùng xuất hiện với vai trò thí sinh trong chương trình âm nhạc Hòa âm Ánh sáng. Sơn Tùng M-TP khởi động chuyến lưu diễn hòa nhạc đầu tiên, mang tên M-TP Ambition – Chuyến bay đầu tiên, vào cuối năm 2015 và kết thúc vào đầu năm 2016.</p><p>Sơn Tùng đã có hơn bốn năm gắn bó với các hãng thu âm Văn Production và WePro Entertainment trước khi thành lập hãng thu âm M-TP Entertainment của mình vào cuối năm 2016. Vào năm 2017, Sơn Tùng M-TP được sự công nhận thiện chí hơn từ cộng đồng mạng sau khi phát hành hai đĩa đơn nằm trong album tuyển tập đầu tiên, m-tp M-TP (2017), là \"Lạc trôi\" và \"Nơi này có anh\". Thành công nối tiếp với anh khi hai đĩa đơn \"Chạy ngay đi\" (2018) và \"Hãy trao cho anh\" (2019) – hợp tác cùng rapper người Mỹ Snoop Dogg – đều gây được tiếng vang và lập nhiều kỷ lục, đồng thời còn được truyền thông quốc tế đánh giá cao. Bộ phim tài liệu đầu tiên của Sơn Tùng, Sky Tour ra mắt năm 2020, kể lại quá trình sản xuất và thực hiện chuyến lưu diễn cùng tên. Hai đĩa đơn được anh phát hành vào năm 2021 và 2024, \"Muộn rồi mà sao còn\" và \"Đừng làm trái tim anh đau\", là hai bài hát tiếng Việt duy nhất lọt vào bảng xếp hạng Billboard Global Excl. US.</p><p>Trong suốt sự nghiệp của mình, Tùng đã nhận được nhiều giải thưởng trong nước và quốc tế, bao gồm một giải Cống hiến, một giải Cánh diều vàng, một giải Âm nhạc châu Âu của MTV, một giải Mnet Asian Music Awards, bảy giải Làn Sóng Xanh và được xếp vào danh sách 30 Under 30 của tạp chí Forbes Vietnam. Album nhạc phim thứ hai của Sơn Tùng, Sky Tour (Original Motion Picture Soundtrack) phát hành vào năm 2020 đạt vị trí thứ 83 trên bảng xếp hạng iTunes toàn cầu.</p>",
+   "info": "Sinh | Nguyễn Thanh Tùng / 5 tháng 7, 1994 / Thành phố Thái Bình, Việt Nam\nQuốc tịch | Việt Nam\nTên khác | M-TP\nTrường lớp | Trường THPT Lê Quý Đôn, Thái Bình / Nhạc viện Thành phố Hồ Chí Minh\nNghề nghiệp | Ca sĩ, nhạc sĩ, nhà sản xuất thu âm, diễn viên, rapper, doanh nhân\nChiều cao | 1,68 m\nCha mẹ | Nguyễn Đức Thiện (cha) / Phạm Thị Thanh Bình (mẹ)\nNgười thân | Nguyễn Việt Hoàng (em trai)",
+   "works": "\"Cơn mưa ngang qua\" | 2011\n\"Nắng ấm xa dần\" | 2013\n\"Đừng về trễ\" | 2013\n\"Em của ngày hôm qua\" | 2013\n\"Chắc ai đó sẽ về\" | 2014\n\"Không phải dạng vừa đâu\" | 2014\n\"Thái Bình mồ hôi rơi\" | 2014\n\"Khuôn mặt đáng thương\" | 2014\n\"Tiến lên Việt Nam ơi\" | 2015\n\"Âm thầm bên em\" | 2015\n\"Buông đôi tay nhau ra\" | 2015\n\"Remember Me\" | 2015\n\"Như ngày hôm qua\" | 2015\n\"Chúng ta không thuộc về nhau\" | 2016\n\"Lạc trôi\" | 2017\n\"Nơi này có anh\" | 2017\n\"Remember Me (SlimV 2017 Mix) (với SlimV)\" | 2017\n\"Lạc trôi (Triple D Remix)\" | 2018\n\"Chạy ngay đi\" | 2018\n\"Chạy ngay đi (Onionn Remix)\" | 2018\n\"You of Yesterday\" | 2018\n\"Hãy trao cho anh (hợp tác với Snoop Dogg)\" | 2019\n\"Có chắc yêu là đây\" | 2020\n\"Chúng ta của hiện tại\" | 2020\n\"Muộn rồi mà sao còn\" | 2021\n\"There's No One at All\" | 2022\n\"Making My Way\" | 2023\n\"Chúng ta của tương lai\" | 2024\n\"Đừng làm trái tim anh đau\" | 2024\n\"Come My Way (hợp tác với Tyga)\" | 2026"
+  }
+ ],
+ "about": {
+  "title": "About",
+  "slug": "about",
+  "image": "landscape.jpg",
+  "content": "<p>The Artvibes là mạng xã hội định hình phong cách sống thế hệ mới.</p><p>Từ những triển lãm nghệ thuật đương đại, tuyệt tác kiến trúc thế giới cho đến nghệ thuật sắp đặt nội thất tinh tế – The Artvibes kể những câu chuyện về cái đẹp trong đời sống thường ngày.</p>"
+ },
+ "mods": {
+  "av_offices": "HÀ NỘI OFFICE\n97-99 Láng Hạ\nĐống Đa District\nHà Nội City\nTel. +84 934 600 603\nEmail: info@artvibes.vn\n\nSÀI GÒN SHOWROOM\n43 Street Number 3\nPhú Mỹ Ward, District 7\nHồ Chí Minh City\nTel. +84 934 600 603\nEmail: info@artvibes.vn\n\nUSA OFFICE\n3308 Laventure Dr, Atlanta GA 30341\nB-150\nAtlanta GA\nTel. +84 934 600 603\nEmail: info@artvibes.vn",
+  "av_contact_intro": "Kết nối để cùng tạo giá trị!\n\nMọi đề xuất hợp tác, trao đổi thông tin hoặc câu hỏi liên quan đến nội dung và hoạt động của The Artvibes, vui lòng liên hệ với Ban Biên tập qua info@artvibes.vn hay biểu mẫu dưới đây.",
+  "av_banner_img": "{img:banner-eclat.jpg}",
+  "av_addr_img": "{img:corridor.jpg}",
+  "av_contact_img": "{img:brick-house.jpg}",
+  "av_social_youtube": "https://www.youtube.com/",
+  "av_social_instagram": "https://www.instagram.com/",
+  "av_social_tiktok": "https://www.tiktok.com/",
+  "av_social_facebook": "https://www.facebook.com/",
+  "av_social_pinterest": "https://www.pinterest.com/",
+  "av_social_linkedin": "https://www.linkedin.com/"
+ },
+ "menus": {
+  "primary": [
+   {
+    "cat": "xu-huong",
+    "kids": 1
+   },
+   {
+    "cat": "thiet-ke",
+    "kids": 1
+   },
+   {
+    "cat": "life-style",
+    "kids": 1
+   },
+   {
+    "title": "Chân dung",
+    "archive": "av_portrait"
+   },
+   {
+    "title": "Videos",
+    "archive": "av_video"
+   },
+   {
+    "title": "About",
+    "page": "about"
+   }
+  ],
+  "footer": [
+   {
+    "cat": "xu-huong",
+    "kids": 1
+   },
+   {
+    "cat": "kien-truc",
+    "kids": 1
+   },
+   {
+    "cat": "noi-that",
+    "kids": 1
+   },
+   {
+    "cat": "hoi-hoa",
+    "kids": 1
+   },
+   {
+    "cat": "van-hoa",
+    "kids": 1
+   },
+   {
+    "cat": "doi-song",
+    "kids": 1
+   },
+   {
+    "title": "Videos",
+    "archive": "av_video",
+    "children": [
+     {
+      "title": "Videos",
+      "archive": "av_video"
+     },
+     {
+      "title": "Short Video",
+      "term": "short-video"
+     }
+    ]
+   },
+   {
+    "title": "About",
+    "page": "about",
+    "children": [
+     {
+      "title": "Về chúng tôi",
+      "page": "about",
+      "hash": "#ve-chung-toi"
+     },
+     {
+      "title": "Địa chỉ",
+      "page": "about",
+      "hash": "#dia-chi"
+     },
+     {
+      "title": "Liên hệ",
+      "page": "about",
+      "hash": "#lien-he"
+     }
+    ]
+   }
+  ]
+ }
+}
