@@ -13,7 +13,7 @@
 		{ "step": "setSiteOptions", "options": { "permalink_structure": "/%postname%/" } },
 		{
 			"step": "runPHP",
-			"code": "<?php define('WP_ADMIN', true); require '/wordpress/wp-load.php'; require_once ABSPATH . 'wp-admin/includes/admin.php'; echo av_demo_import();"
+			"code": "<?php define('WP_ADMIN', true); require '/wordpress/wp-load.php'; require_once ABSPATH . 'wp-admin/includes/admin.php'; add_filter('intermediate_image_sizes_advanced', '__return_empty_array'); echo av_demo_import();"
 		}
 	]
 }

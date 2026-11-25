@@ -2,6 +2,11 @@
 
 Theme tạp chí phong cách sống **The Artvibes**, dựng từ file thiết kế Figma (Trang chủ, Chuyên mục, Bài viết, Videos, Chân dung, About/Liên hệ). Phần quản trị là WordPress admin, cùng cách tổ chức với Infinity Homes: loại nội dung riêng, trường dữ liệu riêng, cài đặt theme và hộp thư liên hệ.
 
+## Xem demo
+
+- **Website (bản tĩnh, VI + EN):** https://artvibesinfinity.github.io/artvibes/ — tiếng Anh: https://artvibesinfinity.github.io/artvibes/en/ (form liên hệ/đăng ký và tìm kiếm không chạy trên bản tĩnh).
+- **WordPress chạy thật + trang admin:** [mở trên WordPress Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/artvibesinfinity/artvibes/main/blueprint.json) — chạy ngay trong trình duyệt, đã đăng nhập admin, tự cài Polylang + theme + dữ liệu mẫu (đợi 1–3 phút). Dữ liệu chỉ nằm trong trình duyệt của bạn, đóng tab là mất.
+
 ## Cài đặt
 
 1. Tải repo về và đặt vào `wp-content/themes/artvibes` (hoặc nén zip rồi vào **Giao diện → Giao diện → Thêm mới → Tải lên**).
