@@ -3,7 +3,7 @@
  * The Artvibes theme — front-end setup and template helpers.
  * Admin (post types, fields, settings, forms) lives in inc/admin.php, demo importer in inc/demo.php.
  */
-define('AV_VER', '1.0.0');
+define('AV_VER', '1.0.1');
 define('AV_URI', get_template_directory_uri());
 
 require __DIR__ . '/inc/i18n.php';
@@ -165,7 +165,7 @@ function av_socials() {
 	$out = '';
 	foreach (['youtube', 'instagram', 'tiktok', 'facebook', 'pinterest', 'linkedin'] as $s) {
 		$url = av_mod("av_social_$s");
-		if ($url) $out .= '<a href="' . esc_url($url) . '" target="_blank" rel="noopener" aria-label="' . esc_attr(ucfirst($s)) . '"><img src="' . AV_URI . "/assets/img/$s.png" . '" alt="" width="22" height="22"></a>';
+		if ($url) $out .= '<a href="' . esc_url($url) . '" target="_blank" rel="noopener" aria-label="' . esc_attr(ucfirst($s)) . '"><img src="' . AV_URI . "/assets/img/$s.png?v=" . AV_VER . '" alt="" width="22" height="22"></a>';
 	}
 	return $out ? '<div class="av-socials">' . $out . '</div>' : '';
 }
