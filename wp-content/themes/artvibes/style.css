@@ -58,11 +58,11 @@ h1, h2, h3, p, figure, dl, dd { margin: 0; }
 .av-logo img { max-height: 60px; width: auto; }
 .av-logo__the { font: 400 20px/1 "Average", Georgia, serif; letter-spacing: .14em; text-transform: uppercase; }
 .av-logo__name { font: 400 40px/1.05 var(--alt); letter-spacing: .14em; text-transform: uppercase; }
-.av-socials { display: flex; gap: 2px; }
+.av-socials { display: flex; gap: 3px; }
 .av-socials img { width: 22px; height: 22px; }
 .av-burger { display: none; }
-.av-lang { display: flex; font-size: 11px; font-weight: 600; letter-spacing: .06em; margin-right: 6px; }
-.av-lang a { padding: 2px 6px; color: var(--muted); }
+.av-lang { display: flex; align-items: center; height: 22px; font-size: 10px; font-weight: 600; letter-spacing: .06em; margin-right: 10px; }
+.av-lang a { padding: 0 7px; line-height: 12px; color: var(--muted); }
 .av-lang a + a { border-left: 1px solid #bbb; }
 .av-lang a.is-active { color: #000; }
 .av-nav__list { list-style: none; margin: 0; padding: 22px 0 24px; display: flex; justify-content: center; gap: 12px 70px; flex-wrap: wrap; }
