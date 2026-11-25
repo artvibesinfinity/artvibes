@@ -1,0 +1,19 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/",
+	"preferredVersions": { "php": "8.3", "wp": "latest" },
+	"login": true,
+	"steps": [
+		{ "step": "installPlugin", "pluginData": { "resource": "wordpress.org/plugins", "slug": "polylang" } },
+		{
+			"step": "installTheme",
+			"themeData": { "resource": "git:directory", "url": "https://github.com/artvibesinfinity/artvibes", "ref": "main", "path": "/" },
+			"options": { "activate": true, "targetFolderName": "artvibes" }
+		},
+		{ "step": "setSiteOptions", "options": { "permalink_structure": "/%postname%/" } },
+		{
+			"step": "runPHP",
+			"code": "<?php define('WP_ADMIN', true); require '/wordpress/wp-load.php'; require_once ABSPATH . 'wp-admin/includes/admin.php'; echo av_demo_import();"
+		}
+	]
+}
