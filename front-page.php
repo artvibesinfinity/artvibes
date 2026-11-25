@@ -16,19 +16,19 @@ if ($hero) : ?>
 					<span class="av-hero__label"><?php echo esc_html($video ? 'Videos' : ($cat[0]->name ?? '')); ?></span>
 					<h2 class="av-hero__title"><a href="<?php echo esc_url(get_permalink($id)); ?>"><b><?php echo esc_html(get_the_title($id)); ?></b>
 						<?php if ($s = av_meta('sub', $id)) echo '<span>' . esc_html($s) . '</span>'; ?></a></h2>
-					<a class="av-btn-ghost" href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo $video ? 'Watch Now' : 'Đọc tiếp'; ?></a>
+					<a class="av-btn-ghost" href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html($video ? 'Watch Now' : av__('Đọc tiếp')); ?></a>
 				</div>
 			</article>
 		<?php endforeach; ?>
 	</div>
 	<?php if (count($hero) > 1) : ?>
-		<div class="av-hero__nav"><button type="button" data-prev aria-label="Trước">←</button><button type="button" data-next aria-label="Sau">→</button></div>
+		<div class="av-hero__nav"><button type="button" data-prev aria-label="<?php echo esc_attr(av__('Trước')); ?>">←</button><button type="button" data-next aria-label="<?php echo esc_attr(av__('Sau')); ?>">→</button></div>
 	<?php endif; ?>
 </section>
 <?php endif;
 
 /* Lead block (Xu hướng): 3 cards, then 2 small + 1 big + side ad. */
-$tc = get_category_by_slug(av_mod('av_trend_cat'));
+$tc = av_term(av_mod('av_trend_cat'));
 $ids = $tc ? av_ids(['cat' => $tc->term_id, 'posts_per_page' => 6]) : [];
 if ($ids) : ?>
 <section class="av-wrap av-sec">
@@ -40,7 +40,7 @@ if ($ids) : ?>
 			<div class="av-mosaic__small"><?php foreach (array_slice($ids, 3, 2) as $id) echo av_card($id, ['size' => 'medium_large']); ?></div>
 			<?php if (isset($ids[5])) echo av_card($ids[5], ['class' => 'av-mosaic__big']); ?>
 			<?php if ($side) : $u = av_mod('av_side_url'); ?>
-				<aside class="av-mosaic__ad"><?php echo $u ? '<a href="' . esc_url($u) . '" target="_blank" rel="noopener sponsored">' : ''; ?><img src="<?php echo esc_url($side); ?>" alt="Quảng cáo" loading="lazy"><?php echo $u ? '</a>' : ''; ?></aside>
+				<aside class="av-mosaic__ad"><?php echo $u ? '<a href="' . esc_url($u) . '" target="_blank" rel="noopener sponsored">' : ''; ?><img src="<?php echo esc_url($side); ?>" alt="<?php echo esc_attr(av__('Quảng cáo')); ?>" loading="lazy"><?php echo $u ? '</a>' : ''; ?></aside>
 			<?php endif; ?>
 		</div>
 	<?php endif; ?>
@@ -50,7 +50,7 @@ if ($ids) : ?>
 /* Category sections: feature + 3 cards. Portraits follow the first one. */
 $first = true;
 foreach (array_filter(array_map('trim', explode(',', av_mod('av_home_cats')))) as $slug) :
-	$c = get_category_by_slug($slug);
+	$c = av_term($slug);
 	$ids = $c ? av_ids(['cat' => $c->term_id, 'posts_per_page' => 4]) : [];
 	if (!$ids) continue; ?>
 	<section class="av-wrap av-sec">
@@ -67,7 +67,7 @@ endforeach;
 $videos = av_videos(6);
 if ($videos) : ?>
 	<section class="av-wrap av-sec">
-		<?php av_section_head('Videos', get_post_type_archive_link('av_video'), 'Thêm Videos'); ?>
+		<?php av_section_head('Videos', get_post_type_archive_link('av_video'), av__('Thêm Videos')); ?>
 		<?php av_rail($videos); ?>
 	</section>
 <?php endif;
@@ -75,7 +75,7 @@ if ($videos) : ?>
 $shorts = av_videos(10, true);
 if ($shorts) : ?>
 	<section class="av-wrap av-sec">
-		<?php av_section_head('Short videos', get_term_link('short-video', 'av_video_type'), 'Thêm Short videos'); ?>
+		<?php av_section_head('Short videos', get_term_link(av_term('short-video', 'av_video_type')), av__('Thêm Short videos')); ?>
 		<?php av_rail($shorts, true); ?>
 	</section>
 <?php endif;

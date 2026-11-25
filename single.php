@@ -8,16 +8,16 @@ $cats = get_the_category();
 $cat = $cats[0] ?? null;
 $share = rawurlencode($url);
 ?>
-<aside class="av-sharebar" aria-label="Chia sẻ">
-	<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $share; ?>" target="_blank" rel="noopener" aria-label="Chia sẻ Facebook">f</a>
+<aside class="av-sharebar" aria-label="<?php echo esc_attr(av__('Chia sẻ')); ?>">
+	<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $share; ?>" target="_blank" rel="noopener" aria-label="<?php echo esc_attr(av__('Chia sẻ Facebook')); ?>">f</a>
 	<a href="https://pinterest.com/pin/create/button/?url=<?php echo $share; ?>" target="_blank" rel="noopener" aria-label="Pinterest">P</a>
-	<button type="button" onclick="print()" aria-label="In bài">⎙</button>
+	<button type="button" onclick="print()" aria-label="<?php echo esc_attr(av__('In bài')); ?>">⎙</button>
 </aside>
 
 <article class="av-article">
 	<header class="av-article__head">
 		<nav class="av-crumbs" aria-label="Breadcrumb">
-			<a href="<?php echo esc_url(home_url('/')); ?>" aria-label="Trang chủ">⌂</a>
+			<a href="<?php echo esc_url(av_home()); ?>" aria-label="<?php echo esc_attr(av__('Trang chủ')); ?>">⌂</a>
 			<?php if ($cat) {
 				if ($cat->parent) echo '<a href="' . esc_url(get_category_link($cat->parent)) . '">' . esc_html(get_cat_name($cat->parent)) . '</a>';
 				echo '<a href="' . esc_url(get_category_link($cat)) . '">' . esc_html($cat->name) . '</a>';
@@ -34,9 +34,9 @@ $share = rawurlencode($url);
 			<?php if ($p = av_meta('photo')) : ?><dt>Photography</dt><dd><?php echo esc_html($p); ?></dd><?php endif; ?>
 			<dt>Share</dt>
 			<dd class="av-share">
-				<button type="button" data-copy="<?php echo esc_url($url); ?>" aria-label="Sao chép link">🔗</button>
-				<a href="mailto:?subject=<?php echo rawurlencode(get_the_title()); ?>&amp;body=<?php echo $share; ?>" aria-label="Gửi email">✉</a>
-				<button type="button" data-share="<?php echo esc_url($url); ?>" aria-label="Chia sẻ">➦</button>
+				<button type="button" data-copy="<?php echo esc_url($url); ?>" aria-label="<?php echo esc_attr(av__('Sao chép link')); ?>">🔗</button>
+				<a href="mailto:?subject=<?php echo rawurlencode(get_the_title()); ?>&amp;body=<?php echo $share; ?>" aria-label="<?php echo esc_attr(av__('Gửi email')); ?>">✉</a>
+				<button type="button" data-share="<?php echo esc_url($url); ?>" aria-label="<?php echo esc_attr(av__('Chia sẻ')); ?>">➦</button>
 			</dd>
 		</dl>
 		<?php if ($intro = av_meta('intro')) : ?><p><?php echo esc_html($intro); ?></p><?php endif; ?>
@@ -67,7 +67,7 @@ foreach (['Related Articles' => $related, 'Trending now' => $trending] as $label
 <?php endforeach; ?>
 
 <section class="av-wrap av-wrap--mid av-subscribe">
-	<?php if ($cat) : ?><a class="av-loadmore" href="<?php echo esc_url(get_category_link($cat)); ?>">Xem thêm →</a><?php endif; ?>
+	<?php if ($cat) : ?><a class="av-loadmore" href="<?php echo esc_url(get_category_link($cat)); ?>"><?php echo esc_html(av__('Xem thêm →')); ?></a><?php endif; ?>
 	<p>Subscribe to our mailing list for the best of local architecture, interiors and design delivered to your inbox.</p>
 	<?php av_subscribe_form(); ?>
 </section>

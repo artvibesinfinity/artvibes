@@ -6,6 +6,7 @@
 define('AV_VER', '1.0.0');
 define('AV_URI', get_template_directory_uri());
 
+require __DIR__ . '/inc/i18n.php';
 require __DIR__ . '/inc/admin.php';
 require __DIR__ . '/inc/demo.php';
 
@@ -34,7 +35,7 @@ add_action('pre_get_posts', function ($q) {
 	if ($q->is_category()) $q->set('posts_per_page', 15);
 	if ($q->is_post_type_archive('av_video') || $q->is_tax('av_video_type')) $q->set('posts_per_page', 9);
 	if ($q->is_post_type_archive('av_video')) { // "Tất cả" lists long videos; shorts get their own rail
-		$q->set('tax_query', [['taxonomy' => 'av_video_type', 'field' => 'slug', 'terms' => 'short-video', 'operator' => 'NOT IN']]);
+		$q->set('tax_query', [['taxonomy' => 'av_video_type', 'terms' => av_term_ids('short-video'), 'operator' => 'NOT IN']]);
 	}
 });
 
@@ -148,7 +149,7 @@ function av_ids($args) {
 function av_videos($n = 6, $short = false) {
 	return av_ids([
 		'post_type' => 'av_video', 'posts_per_page' => $n,
-		'tax_query' => [['taxonomy' => 'av_video_type', 'field' => 'slug', 'terms' => 'short-video', 'operator' => $short ? 'IN' : 'NOT IN']],
+		'tax_query' => [['taxonomy' => 'av_video_type', 'terms' => av_term_ids('short-video'), 'operator' => $short ? 'IN' : 'NOT IN']],
 	]);
 }
 
@@ -175,12 +176,12 @@ function av_banner() {
 	if (!$img) return;
 	$url = av_mod('av_banner_url');
 	echo '<div class="av-banner">' . ($url ? '<a href="' . esc_url($url) . '" target="_blank" rel="noopener sponsored">' : '')
-		. '<img src="' . esc_url($img) . '" alt="' . esc_attr__('Quảng cáo', 'artvibes') . '" loading="lazy">' . ($url ? '</a>' : '') . '</div>';
+		. '<img src="' . esc_url($img) . '" alt="' . esc_attr(av__('Quảng cáo')) . '" loading="lazy">' . ($url ? '</a>' : '') . '</div>';
 }
 
 /** Home "more" link label: "Thêm kiến trúc". */
 function av_more_label($name) {
-	return 'Thêm ' . mb_strtolower($name);
+	return sprintf(av__('Thêm %s'), mb_strtolower($name));
 }
 
 function av_footer_menu_fallback() {
@@ -214,17 +215,19 @@ function av_form_open($action, $class = '') {
 
 function av_subscribe_form() {
 	av_form_open('av_subscribe', 'av-subform');
-	echo '<input type="email" name="email" required placeholder="Email của bạn" aria-label="Email"><button type="submit">Đăng ký</button></form>';
+	echo '<input type="email" name="email" required placeholder="' . esc_attr(av__('Email của bạn')) . '" aria-label="Email"><button type="submit">' . esc_html(av__('Đăng ký')) . '</button></form>';
 }
 
 function av_contact_form() {
 	av_form_open('av_contact', 'av-contact');
 	foreach (['name' => ['Họ Tên Bạn', 'text', 1], 'company' => ['Công ty, Doanh nghiệp & Tổ chức', 'text', 0], 'role' => ['Bộ phận & chức vụ', 'text', 0],
 		'address' => ['Địa chỉ', 'text', 0], 'phone' => ['Số điện thoại', 'tel', 0], 'email' => ['Email', 'email', 1]] as $k => [$ph, $type, $req]) {
+		$ph = av__($ph);
 		echo '<input type="' . $type . '" name="' . $k . '" placeholder="' . esc_attr($ph) . '" aria-label="' . esc_attr($ph) . '"' . ($req ? ' required' : '') . '>';
 	}
-	echo '<select name="topic" aria-label="Chọn nội dung liên hệ"><option value="">Chọn nội dung liên hệ</option>';
-	foreach (array_filter(array_map('trim', explode("\n", av_mod('av_contact_topics')))) as $t) echo '<option>' . esc_html($t) . '</option>';
-	echo '</select><textarea name="message" rows="3" placeholder="Chi tiết các nội dung cần liên hệ &amp; trao đổi" aria-label="Nội dung"></textarea>'
-		. '<button type="submit">Gửi</button></form>';
+	$topic = esc_html(av__('Chọn nội dung liên hệ'));
+	echo '<select name="topic" aria-label="' . $topic . '"><option value="">' . $topic . '</option>';
+	foreach (array_filter(array_map('trim', explode("\n", av__(av_mod('av_contact_topics'))))) as $t) echo '<option>' . esc_html($t) . '</option>';
+	echo '</select><textarea name="message" rows="3" placeholder="' . esc_attr(av__('Chi tiết các nội dung cần liên hệ & trao đổi')) . '" aria-label="' . esc_attr(av__('Nội dung')) . '"></textarea>'
+		. '<button type="submit">' . esc_html(av__('Gửi')) . '</button></form>';
 }

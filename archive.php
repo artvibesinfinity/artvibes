@@ -12,7 +12,7 @@ $ids = wp_list_pluck($GLOBALS['wp_query']->posts, 'ID');
 		$kids = get_categories(['parent' => $term->term_id, 'hide_empty' => false, 'orderby' => 'term_id']);
 		$root = $kids ? $term : ($term->parent ? get_category($term->parent) : null);
 		if ($root) {
-			$items = [['Tất cả', get_category_link($root), $root->term_id === $term->term_id]];
+			$items = [[av__('Tất cả'), get_category_link($root), $root->term_id === $term->term_id]];
 			foreach ($kids ?: get_categories(['parent' => $root->term_id, 'hide_empty' => false, 'orderby' => 'term_id']) as $k) {
 				$items[] = [$k->name, get_category_link($k), $k->term_id === $term->term_id];
 			}
@@ -23,7 +23,7 @@ $ids = wp_list_pluck($GLOBALS['wp_query']->posts, 'ID');
 </div>
 
 <?php if (!$ids) : ?>
-	<p class="av-wrap av-empty">Chưa có bài viết trong mục này.</p>
+	<p class="av-wrap av-empty"><?php echo esc_html(av__('Chưa có bài viết trong mục này.')); ?></p>
 <?php else : ?>
 	<div class="av-wrap av-wrap--mid">
 		<div class="av-grid2"><?php foreach (array_slice($ids, 0, 2) as $id) echo av_card($id, ['excerpt' => true]); ?></div>
@@ -37,7 +37,7 @@ $ids = wp_list_pluck($GLOBALS['wp_query']->posts, 'ID');
 		</div>
 	<?php endif; ?>
 	<?php if ($GLOBALS['wp_query']->max_num_pages > max(1, get_query_var('paged'))) : ?>
-		<div class="av-wrap av-loadmore"><a href="<?php echo esc_url(get_next_posts_page_link()); ?>">Xem thêm →</a></div>
+		<div class="av-wrap av-loadmore"><a href="<?php echo esc_url(get_next_posts_page_link()); ?>"><?php echo esc_html(av__('Xem thêm →')); ?></a></div>
 	<?php endif; ?>
 <?php endif;
 

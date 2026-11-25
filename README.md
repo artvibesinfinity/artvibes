@@ -9,7 +9,7 @@ Theme tạp chí phong cách sống **The Artvibes**, dựng từ file thiết k
 3. Vào **Giao diện → Dữ liệu mẫu → Nhập dữ liệu mẫu**. Bước này tạo chuyên mục, 27 bài viết, 11 video, 3 chân dung, trang About, menu và cài đặt giống bản Figma. Chạy lại không tạo trùng.
 4. **Cài đặt → Đường dẫn tĩnh**: chọn "Tên bài viết" (trình nhập đã tự đặt nếu đang trống).
 
-Yêu cầu: WordPress 6.2+, PHP 7.4+. Không cần plugin.
+Yêu cầu: WordPress 6.2+, PHP 7.4+. Song ngữ cần plugin Polylang (miễn phí); không có Polylang site vẫn chạy tiếng Việt.
 
 ## Quản trị (wp-admin)
 
@@ -25,6 +25,16 @@ Yêu cầu: WordPress 6.2+, PHP 7.4+. Không cần plugin.
 | **Giao diện → Menu** | *Menu chính* (header, hỗ trợ menu con) và *Menu chân trang* (mỗi mục cấp 1 là một cột). |
 
 Trang About dùng mẫu trang **About (Giới thiệu – Địa chỉ – Liên hệ)**: nội dung trang = "Về chúng tôi", ảnh đại diện = banner.
+
+## Song ngữ Việt – Anh (Polylang, giống Infinity Homes)
+
+1. Cài và bật plugin **Polylang** (miễn phí) — trước khi bấm *Nhập dữ liệu mẫu*.
+2. Trình nhập tự tạo ngôn ngữ **Tiếng Việt (mặc định)** + **English**, chuyên mục/thẻ/loại video tiếng Anh, bản tiếng Anh cho mọi bài, video, chân dung, trang About (`/en/about-us/`) và menu riêng cho từng ngôn ngữ. Trang tiếng Anh nằm dưới `/en/`.
+3. Header có nút chuyển **VI | EN**, trỏ thẳng tới bản dịch của trang đang xem.
+
+Khi viết bài mới: tạo bài tiếng Việt, rồi bấm dấu **+** ở cột English (hộp *Ngôn ngữ* trong trình soạn thảo) để tạo bản tiếng Anh — các trường Phụ đề, Credits… được chép sẵn để dịch; link video, lượt xem, ảnh và tick slider luôn đồng bộ giữa hai bản.
+
+Chữ giao diện (nút, nhãn form, "Xem thêm"…) và các đoạn văn trong *Tùy biến → Artvibes* đã có sẵn bản tiếng Anh; muốn sửa thì vào **Ngôn ngữ → Bản dịch chuỗi**, nhóm *Artvibes*. Không cài Polylang thì site chạy một ngôn ngữ tiếng Việt như bình thường.
 
 ## Font
 

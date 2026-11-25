@@ -1,6 +1,6 @@
 <?php
 get_header(); ?>
-<div class="av-page-head"><h1 class="av-h1">Chân dung</h1></div>
+<div class="av-page-head"><h1 class="av-h1"><?php echo esc_html(av__('Chân dung')); ?></h1></div>
 <section class="av-wrap av-people av-sec">
 	<?php while (have_posts()) : the_post(); get_template_part('parts/person', null, ['id' => get_the_ID()]); endwhile; ?>
 </section>

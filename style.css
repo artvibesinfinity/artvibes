@@ -61,6 +61,10 @@ h1, h2, h3, p, figure, dl, dd { margin: 0; }
 .av-socials { display: flex; gap: 2px; }
 .av-socials img { width: 22px; height: 22px; }
 .av-burger { display: none; }
+.av-lang { display: flex; font-size: 11px; font-weight: 600; letter-spacing: .06em; margin-right: 6px; }
+.av-lang a { padding: 2px 6px; color: var(--muted); }
+.av-lang a + a { border-left: 1px solid #bbb; }
+.av-lang a.is-active { color: #000; }
 .av-nav__list { list-style: none; margin: 0; padding: 22px 0 24px; display: flex; justify-content: center; gap: 12px 70px; flex-wrap: wrap; }
 .av-nav__list > li { position: relative; }
 .av-nav__list a { font-weight: 700; font-size: 15px; letter-spacing: var(--track); text-transform: uppercase; }

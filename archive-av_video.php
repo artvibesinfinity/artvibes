@@ -2,10 +2,10 @@
 /** Videos page (also used for each "Loại video" term) — layout from the "VIDEOS" frame. */
 get_header();
 $current = is_tax('av_video_type') ? get_queried_object() : null;
-$is_short = $current && $current->slug === 'short-video';
+$is_short = $current && in_array($current->term_id, av_term_ids('short-video'), true);
 
-$items = [['Tất cả', get_post_type_archive_link('av_video'), !$current]];
-foreach (get_terms(['taxonomy' => 'av_video_type', 'hide_empty' => false, 'slug__not_in' => ['video']]) as $t) {
+$items = [[av__('Tất cả'), get_post_type_archive_link('av_video'), !$current]];
+foreach (get_terms(['taxonomy' => 'av_video_type', 'hide_empty' => false, 'exclude' => av_term_ids('video')]) as $t) {
 	$items[] = [$t->name, get_term_link($t), $current && $current->term_id === $t->term_id];
 }
 ?>
@@ -22,7 +22,7 @@ foreach (get_terms(['taxonomy' => 'av_video_type', 'hide_empty' => false, 'slug_
 		</div>
 		<div class="av-pages"><?php echo paginate_links(['prev_text' => '←', 'next_text' => '→']); ?></div>
 	<?php else : ?>
-		<p class="av-empty">Chưa có video.</p>
+		<p class="av-empty"><?php echo esc_html(av__('Chưa có video.')); ?></p>
 	<?php endif; ?>
 </section>
 
