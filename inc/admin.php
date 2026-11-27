@@ -202,6 +202,7 @@ function av_settings() {
 			'av_home_cats'  => ['Các chuyên mục hiển thị (slug, cách nhau dấu phẩy, theo thứ tự)', 'text', 'kien-truc,noi-that,hoi-hoa,van-hoa,doi-song'],
 			'av_side_img'   => ['Ảnh quảng cáo cột phải (khối đầu)', 'image', ''],
 			'av_side_url'   => ['Link quảng cáo cột phải', 'url', ''],
+			'av_products_page' => ['Trang sản phẩm (link "Thêm sản phẩm" — cần plugin Product Hub)', 'dropdown-pages', 0],
 		]],
 		'av_ads' => ['Banner quảng cáo', [
 			'av_banner_img' => ['Ảnh banner (ngang, full màn hình)', 'image', ''],
@@ -241,7 +242,7 @@ add_action('customize_register', function ($c) {
 	foreach (av_settings() as $sid => [$title, $fields]) {
 		$c->add_section($sid, ['title' => $title, 'panel' => 'av']);
 		foreach ($fields as $id => [$label, $type, $default]) {
-			$sanitize = ['image' => 'esc_url_raw', 'url' => 'esc_url_raw', 'textarea' => 'sanitize_textarea_field', 'email' => 'sanitize_email'][$type] ?? 'sanitize_text_field';
+			$sanitize = ['image' => 'esc_url_raw', 'url' => 'esc_url_raw', 'textarea' => 'sanitize_textarea_field', 'email' => 'sanitize_email', 'dropdown-pages' => 'absint'][$type] ?? 'sanitize_text_field';
 			$c->add_setting($id, ['default' => $default, 'sanitize_callback' => $sanitize]);
 			$type === 'image'
 				? $c->add_control(new WP_Customize_Image_Control($c, $id, ['label' => $label, 'section' => $sid]))

@@ -3,7 +3,7 @@
  * The Artvibes theme — front-end setup and template helpers.
  * Admin (post types, fields, settings, forms) lives in inc/admin.php, demo importer in inc/demo.php.
  */
-define('AV_VER', '1.0.1');
+define('AV_VER', '1.0.2');
 define('AV_URI', get_template_directory_uri());
 
 require __DIR__ . '/inc/i18n.php';

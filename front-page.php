@@ -64,6 +64,16 @@ foreach (array_filter(array_map('trim', explode(',', av_mod('av_home_cats')))) a
 	$first = false;
 endforeach;
 
+/* Products from Product Hub (only when its plugin is active). */
+if (shortcode_exists('product_hub') && ($products = do_shortcode('[product_hub limit="8" columns="4"]'))) :
+	$pid = (int) av_mod('av_products_page');
+	if ($pid && function_exists('pll_get_post')) $pid = pll_get_post($pid) ?: $pid; ?>
+	<section class="av-wrap av-sec">
+		<?php av_section_head(av__('Sản phẩm'), $pid ? get_permalink($pid) : '', av__('Thêm sản phẩm')); ?>
+		<?php echo $products; ?>
+	</section>
+<?php endif;
+
 $videos = av_videos(6);
 if ($videos) : ?>
 	<section class="av-wrap av-sec">

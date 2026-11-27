@@ -49,6 +49,8 @@ const AV_EN = [
 	'Thông tin cá nhân' => 'Personal information',
 	'Tác phẩm' => 'Works',
 	'Trở lại đầu trang ↑' => 'Back to top ↑',
+	'Sản phẩm' => 'Products',
+	'Thêm sản phẩm' => 'More products',
 	// about / forms
 	'Về chúng tôi' => 'About us',
 	'Địa chỉ' => 'Address',
